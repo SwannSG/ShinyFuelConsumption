@@ -30,6 +30,11 @@ shinyUI(pageWithSidebar(
    h4('Result'),
    textOutput("fit"),
    p(' '),
-   p('95 % confidence interval')
+   p('95 % confidence interval'),
+   p(' '),
+   h4('Additional Information'),
+   p(' '),
+   a('Slidify Presentation', href="http://swannsg.github.io/DevDataProdSlidify/index.html")
+   
 )
 ))
